@@ -1,0 +1,52 @@
+.head_section{
+    height: 80px;
+    background-color: #1A187A;
+    padding: 16px 160px 16px 198px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo_img{
+    height: 150px;
+}
+.search_option{
+    float: none;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+    
+    
+    
+}
+.option_site{
+    display: flex;
+    gap: 20px;
+    color: white;
+    
+
+}
+.icon_img{
+    height: 20px;
+    width: 20px;
+    gap: 30px;
+    color: white;
+    
+
+}
+
+/* banner_section */
+
+
+.first_back{
+    height: 50vh;
+    background-image: url(./banner_1_back.png);
+}
+
+.second_back{
+    height: 50vh;
+    
+    background-image: url(./banner_img_2.jpg);
+}

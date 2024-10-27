@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+    {% if messages %}
+    {% for i in messages %}
+    <h5 class="text-success">{{ i }}</h5>
+    
+    {% endfor %}
+    
+    {% endif %}
+
+    <div style="width: 50%; margin:auto">
+    <form method='post'>
+    <h3>This is Ragister Page</h3>
+        {% csrf_token %}
+        {{ form | crispy }}
+        <button class="btn btn-success">Register</button>
+    </div>        
+    </form>
+
+      {% endblock  %}

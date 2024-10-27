@@ -1,0 +1,473 @@
+.body{
+    padding: 0px;
+}
+.backround{
+    background-color: #1A187A;
+    color: white;
+}
+
+.Button_head{
+    background-color: rgb(17, 14, 14);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+}
+
+
+/* Craluel section  */
+
+.first_back{
+    height: 500px;
+    width: 100%;
+    background-image: url(./samsung_bg.jpg);
+
+}
+
+.second_back{
+    height: 500px;
+    width: 100%;
+    background-image:url(./banner_1_back.png);
+}
+
+.right_sec{
+    
+    text-align: center;
+    color: white;
+}
+
+.iphone{
+    padding-top: 100px;
+    height: 600px;
+    width: 400px;
+}
+
+.right1_sec{
+    text-align: center;
+
+}
+
+.sam_phone{
+    padding-top: 100px;
+    height: 600px;
+    width: 400px;
+}
+
+.button_site{
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+
+/* Card section 1 */
+.container{
+    height: 300px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 200px;
+    
+    
+}
+
+.cards{
+    display: flex;
+    gap: 60px;
+    
+
+    
+}
+
+
+.card1{
+    height: 100px;
+    width: 100px;
+
+    background-color: #EDEDED;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.card2{
+    height: 100px;
+    width: 100px;
+    background-color: #EDEDED;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.card3{
+    height: 100px;
+    width: 100px;
+    background-color: #EDEDED;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.card4{
+    height: 100px;
+    width: 100px;
+    background-color: #EDEDED;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.card5{
+    height: 100px;
+    width: 100px;
+    background-color: #EDEDED;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.card6{
+    height: 100px;
+    width: 100px;
+    background-color: #EDEDED;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+/* Card Section 2 */
+
+.container1{
+    margin: 0%;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: #424147;
+}
+
+
+.L_site{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50vh;
+}
+
+.Ipad{
+    
+    height: 300px;
+    justify-content: center;
+    
+}
+
+
+.middle_site{
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: black;
+}
+
+.H_tag{
+    color: white;
+    font-weight: 900;
+    font-size: 70px;
+    
+}
+
+.Pad_next{
+    padding-top: 110px;
+    
+    height: 450px;
+    width:100%;
+}
+
+
+
+
+
+    
+    
+    
+.all_card1{
+    gap:40px ;
+    
+    justify-content: center;
+}
+
+
+.box1{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 300px;
+    width: 200px;
+    background-color: #F6F6F6 ;
+    border-radius: 15px;
+    
+    align-items: center;
+    
+}
+.box2{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 20px;
+    height: 300px;
+    width: 200px;
+    background-color: #F6F6F6 ;
+    border-radius: 15px;
+    
+    align-items: center;
+    
+}
+.box3{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 300px;
+    width: 200px;
+    background-color: #F6F6F6 ;
+    border-radius: 15px;
+    
+    align-items: center;
+    
+}
+.box4{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 300px;
+    width: 200px;
+    background-color: #F6F6F6 ;
+    border-radius: 15px;
+    
+    align-items: center;
+    
+}
+
+.button_4{
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    width: 100px;
+
+}
+
+.buttom{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+
+
+/* backround section 1 */
+
+
+.Full{
+    height: 500px;
+    width: 100%;
+}
+
+.Full_sec{
+    height: 100%;
+    width: 50%;
+    background-image: url(./i_pad.png);
+}
+
+.right_1{
+    background-image: url(./i_pad.png);
+}
+
+
+/* Foter section  */
+
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+
+}
+.Footer_1{
+    
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.img_fot{
+    height: 150px;
+    width: 150px;
+}
+
+.acordi_1{
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* Last part */
+
+
+.container5{
+    height: 600px;
+    width: 100%;
+    
+}
+
+.con_item{
+    display: flex;
+    
+}
+
+
+/* Right site section  */
+
+.col_lu{
+    height: 350px;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    padding-top: 5px;
+    
+    padding-bottom: 50px;
+}
+.Lor_pad{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.H2_b{
+    font-weight: 900;
+    font-size: 40px;
+    
+}
+
+.p2_b{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+.col_lb{
+    height: 250px;
+    
+}
+
+.col_lbb{
+    display: flex;
+}
+
+.col_lbb1{
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+
+.airpod_sm{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.p_sm{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* right_site col-5 */
+
+.cont_r{
+    height: 400px;
+    width: 100px;
+    justify-content: center;
+    
+}
+
+.col_r{
+    padding-top: 100px;
+    display: flex;
+    
+    
+}
+
+.col_rr{
+    padding-top: 70px;
+    padding-left: 20px;
+    
+}
+
+.col_rl{
+    padding-top: 400px;
+    background-image: url(./mac_book.png);
+    background-repeat: no-repeat;
+    padding-right: 300px;
+    
+    
+}
+
+.l_mid{
+    padding-top: 50px;
+}
+
+
+
+.mac_book_r{
+    height: 400px;
+    width: 300px;
+}
+
+.H_for{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.link_bu{
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 40px;
+}
+

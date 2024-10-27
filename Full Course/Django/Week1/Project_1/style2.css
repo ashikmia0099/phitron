@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+}
+.header_site{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    justify-content: space-around;
+}
+
+.image_option{
+    width: 70px;
+
+}
+
+.right_site{
+    display: flex;
+    gap: 30px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 90vh;
+    
+    background-color: darkolivegreen;
+}
+
+.left{
+    text-align: center;
+}
+
+button{
+    border: none;
+    padding:15px 25px;
+}
+.button_1{
+    background-color: cadetblue;
+}
+.button_2{
+    background-color: aquamarine;
+}
+
+.h1_tag{
+    font-size: 75px;
+    font-weight: bold;
+    color: rgb(18, 44, 35);
+    
+}
+.p_tag{
+    font-size: 20px;
+}
+
+.img_auto{
+    width: auto;
+}
+
+.head2{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(6, 63, 18);
+}
+.card{
+    width: 250px;
+    height: 400px;
+    box-shadow: 8px 8px 16px gray;
+    text-align: center;
+    align-items: center;
+}
+.card1pic{
+    width: 100px;
+    height: 100px;
+}
+
+.baby2{
+    width: 100px;
+    
+   
+}
+.baby3{
+    width: 100px;
+}
+.health1{
+    width: 200px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.h1_3{
+    text-align: center;
+    font-size: 50px;
+    color: saddlebrown;
+}
+.formaction{
+    text-align: center;
+}
+.input_box{
+    padding : 20px 25px;
+    margin: 10px;
+}
+.text_area{
+    padding: 35px 40px;
+}
+.send{
+    margin: 10px;
+    padding: 20px 25px;
+    background-color: rgb(11, 119, 165);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.footer_section{
+    padding-top: 40px;
+    padding-left: 80px;
+    display: flex;
+    text-align: center;
+    background-color: black;
+    color: white;
+    gap: 60px;
+}
+.text_1{
+    text-align: center;
+    
+}

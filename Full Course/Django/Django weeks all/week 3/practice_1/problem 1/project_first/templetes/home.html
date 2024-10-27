@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <h3>Name: {{Name}} </h3>
+    <h3>Courses: {{Courses}} </h3>
+    <h3>INstitute: {{Institute}} </h3>
+
+
+    <h2>{{ list | join:" - " }}</h2>
+    <h2>{{ list | join:" // " }}</h2>
+    <h2>{{ todayDate | date:"D d M Y" }}</h2>
+    <h2>{{ todayDate|date:"SHORT_DATE_FORMAT" }}</h2>
+    <h2>{{ todayDate | date }}</h2>
+    <h2>{{ singlenum | add:"5" }}</h2>
+    <h2>{{ capfirst | capfirst }}</h2>
+    <h2>{{ cutfilter | cut:" " }}</h2>
+    <h2>{{ cutfilter2 | cut:"-" }}</h2>
+    <h2>{{ dictsortss | dictsort:"name" }}</h2>
+    <h2>{{ dictsortss | dictsort:"age" }}</h2>
+    <h2>{{ escapeFil | escape }}</h2>
+    <h2>{{ firstfilter | first }}</h2>
+    <h2>{{ firstfilter | last }}</h2>
+    <h2>{{ firstfilter | length }}</h2>
+    <h2>{{ cutfilter | lower }}</h2>
+    <h2>{{ cutfilter | upper }}</h2>
+    <h2>{{ cutfilter | title }}</h2>
+    <h2>{{ randomly | random }}</h2>
+    <h2>{{ randomly | slice:":2" }}</h2>
+    <h2>{{ todayDate | time:"H:i" }}</h2>
+    <h2>{{ todayDate | time:"H\h i\m" }}</h2>
+    <h2>{{ cutfilter | truncatechars:7 }}</h2>
+    <h2>{{ cutfilter | wordcount }}</h2>
+    <h2>{{ cutfilter | truncatewords:2 }}</h2>
+    <h2>{{ striptages | striptags }}</h2>
+    <h2>{{ make | make_list }}</h2>
+    
+</body>
+</html>

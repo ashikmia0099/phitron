@@ -1,0 +1,20 @@
+
+{% extends "base.html" %}
+{% load static %}
+
+{% block navigation%}
+
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="{% url 'home' %}">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'item' %}">Show Item</a>
+  </li>
+  <li class="nav-item active">
+    <a class="nav-link" href="{% url 'about' %}">About us</a>
+  </li>
+</ul>
+{% endblock %}
+
+

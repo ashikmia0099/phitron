@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is home html</h1>
+    <h2>Author: {{author}}</h2>
+    <h2>Age: {{age}}</h2>
+    <h2>{{list}}</h2>
+    <h2>{{ list | join:" - " }} </h2>
+    <h2>{{ bithday | date:"D d M Y" }} </h2>
+
+
+     
+
+    {% if age >= 20 %}
+        <h2> you will get licence </h2>
+
+    {%  elif age > 15 %}
+        <h2> you will get not driving licence </h2>
+    {% else %}
+        <h2> you are children </h2>
+
+    {% endif %}
+
+
+    {% for i in cources %}
+    <h2>{{i.id}} {{i.name}} {{i.fee}} </h2>
+    
+    {% endfor %}
+
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+    "workbench.editorLargeFileConfirmation": 50,
+    "files.associations": {
+        "stdio.h": "c"
+    }
+}

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block homecontent %}
+<h1>This is Profile Page</h1>
+<h1>Hello : {{user}} </h1>
+
+<p><a href="{% url 'passwoedchange' %}"; class="btn bg-secondary text-white">Change Your Password</a></p>
+<p><a href="{% url 'passwoedchange2' %}"; class="btn bg-secondary text-white">Change Your Password without old password</a></p>
+
+{% endblock  %}

@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="d-flex flex-wrap align-content-center">
+  <div class="col-6 text-center p-5">
+    <img src="{{ usersite.image.url }}" class="card-img-top m-2 w-50" alt="...">
+  </div>
+  <div class="col-6 bg-body-secondary text-center p-5">
+    <p class="card-text"><h2>Title: {{usersite.title}}</h2> </p>
+    <h6 class="card-text m-2">Details: {{usersite.description}} </h6>
+    <p class="card-text"><h2>Total Quantity: {{usersite.Book_Quantity}}</h2></p>
+    <a class="btn btn-success mt-3" disabled><h3>Price: {{usersite.browing_price}}</h3> </a>
+    <br>
+      {% if request.user.is_authenticated %}
+      <a class="btn btn-warning mt-2" href= "{% url  'borrowbookpage' id=usersite.id %}" ><h3>Borrow Book</h3></a>
+    {% endif %}
+    
+  </div>
+</div>
+
+<h1 class="text-center mt-3">User Profile</h1>
+
+    <div style="width: 80%; margin: auto;" class="mt-5">
+        <h2>Account Balance: {{ user_profile.account_balance }}</h2>
+
+        <h3>Borrowing History:</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Book Title</th>
+                    <th scope="col">Borrow Time</th>
+                    <th scope="col">Return Time</th>
+                    <th scope="col">Borrowed Amount</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for history in borrow_history %}
+                    <tr>
+                        <td>{{ history.book.title }}</td>
+                        <td>{{ history.borrow_time }}</td>
+                        <td>{{ history.return_time|default:"Not Returned" }}</td>
+                        <td>{{ history.borrowed_amount }}</td>
+                        <td>
+                            {% if history.return_time is None %}
+                                <a href="{% url 'return_book' borrow_history_id=history.id %}" class="btn btn-primary">Return Book</a>
+                            {% else %}
+                                Book Returned
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock  %}

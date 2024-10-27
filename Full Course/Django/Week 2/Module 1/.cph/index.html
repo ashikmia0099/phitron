@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="deposit amount_box">
+            <div class="all_div">
+                <h4 id="deposite-dp-amount">00</h4>
+                <p>Deposite</p>
+            </div>
+        </div>
+        <div class="withdrow amount_box">
+            <div class="all_div">
+                <H4 id="withdrow-dp-amount">00</H4>
+                <p>Withdrow</p>
+            </div>
+        </div>
+        <div class="total amount_box">
+            <div class="all_div">
+                <h4>100</h4>
+                <p>Total</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="button_section">
+        <div class="with_btn_sec input_sec">
+            <input id="deposite-amount" class="button_link plc_amount" type="text place" placeholder="Amount">
+            <br>
+            <button onclick="handeldepsit()" class="btn btn_cls">Deposit</button>
+        </div>
+        
+        <div class="dep_btn_sec input_sec">
+            <input id="withdrow-amount" class="button_link plc_amount" type="text" placeholder="Amount">
+            <br>
+            <button onclick="handelwithdrow()" class="btn btn_cls">Withdrow</button>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <!-- Javascript link  -->
+
+    <script src="app.js"></script>
+</body>
+</html>

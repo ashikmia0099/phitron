@@ -1,0 +1,144 @@
+/* head section  */
+
+
+.header_section{
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.head_button{
+    border: 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.headButton button:hover{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-color: #ff1f3d;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    color: rgb(126, 118, 118);
+    border: none;
+}
+
+.head_button2{
+    border: 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: red;
+    border-radius: 15px;
+}
+
+
+/* buttton section 3 */
+
+.all_button{
+    padding:20px;
+    text-align: center;
+    
+}
+
+.allbutton{
+    
+    padding: 15px;
+    margin: 0px;
+}
+
+
+
+
+/* all button section */
+
+.all_button_4{
+    justify-content: center;
+    gap:15px;
+    padding: 20px;
+    
+}
+
+.dis_button button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    justify-content: center;
+    color: black;
+    border-radius: 10px;
+    border: none;
+
+}
+.dis_button button:hover{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-color: #ff1f3d;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    color: rgb(126, 118, 118);
+    border: none;
+}
+
+
+
+/* Content Section */
+
+#main_section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.image_modify img{
+    width: 250px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+.logo_section img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.card_other_info img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.card_other_info h3 {
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.card_other_info p{
+    color: rgba(23, 23, 23, 0.7);
+    font-size: 15px;
+    line-height: normal;
+    
+}
+.p_tag{
+    display: inline;
+}
+.flex_last{
+    display: flex;
+    gap:15px;
+}
+

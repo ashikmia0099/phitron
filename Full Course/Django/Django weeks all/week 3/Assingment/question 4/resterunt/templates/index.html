@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block navigation%}
+
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="{% url 'home' %}">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'item' %}">Show Item</a>
+  </li>
+  <li class="nav-item active">
+    <a class="nav-link" href="{% url 'about' %}">About us</a>
+  </li>
+</ul>
+{% endblock %}
+
+
+
+
+
+{% block content %}
+
+ <div class="d-flex text-center p-5 align-content-center  " <a href="{% url 'home' %}">
+  <p  > One bite into this small mountain of crispy duck skin, juicy meat, radish, cucumber, scallion and sweet bean sauce wrapped neatly in a thin pancake, and you’ll understand why Peking duck has been captivating stomachs – including those of ancient Chinese emperors – for centuries.</p>
+  <img class="w-25  " src="{% static 'food_img.jpg' %}" alt="" />
+</a>>
+</div>
+
+ 
+
+{% endblock %}
+
+

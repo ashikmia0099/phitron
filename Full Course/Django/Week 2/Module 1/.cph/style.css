@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.amount_box{
+    height: 100px;
+    width: 150px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.all_div{
+    text-align: center;
+    font-size: 25px;
+}
+
+.deposit{
+    background-color: rgb(5, 39, 39);
+}
+
+.withdrow{
+    background-color: rgb(93, 104, 83);
+}
+
+.total{
+    background-color: rgb(9, 83, 83);
+    color: white;
+}
+
+
+
+/* Button Section  */
+
+.button_section{
+    display: flex;
+    padding: 100px;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.input_sec{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: cadetblue;
+    
+}
+
+
+
+
+.button_link{
+    padding: 5px ;
+}
+
+.plc_amount{
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(71, 94, 33);
+    border: 0px;
+    padding: 7px;
+    color: goldenrod;
+    font-weight: 500;
+    border-radius: 10px;
+
+}

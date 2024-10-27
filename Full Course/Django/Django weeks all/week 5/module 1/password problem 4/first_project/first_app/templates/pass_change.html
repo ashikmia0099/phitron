@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block homecontent %}
+
+
+
+{% if messages %}
+  {% for m in messages  %}
+      <small> {{m}} </small>
+  {% endfor %}
+{% endif %}
+
+
+{% load crispy_forms_tags %}
+
+<div>
+      <form method='post'; style="width: 50%; margin: auto;">
+            <h1>This is Password change Form</h1>
+            {% csrf_token %}
+            {{ form | crispy }}
+
+               <!-- {% for fm in form %}
+              {{fm.label_tag}}
+              {{fm}} 
+              {{fm.errors}}
+            {% endfor %} -->
+            
+            <button class="btn btn-success">Change Password</button>
+      </form>
+</div>
+      
+{% endblock  %}

@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(57, 87, 77);
+}
+h1{
+    color: bisque;
+}
+p{
+    color: rgb(57, 57, 92);
+}
+/* .box{
+    height: 300px;
+    width: 500px;
+    border: 10px solid rgb(29, 8, 49);
+    padding: 20px;
+    background-color: black;
+    margin: 30px;
+
+    
+} */
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 5px solid navajowhite;
+    margin: 15px;
+    background-color: aquamarine;
+    padding: 20px;
+    
+
+}
+.continer{
+    display: flex;
+}
